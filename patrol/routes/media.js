@@ -31,7 +31,8 @@ function fileFilter(req, file, cb) {
 
   const imageMimeTypes = ["image/jpeg", "image/png", "image/jpg"];
   const videoMimeTypes = ["video/mp4", "video/mpeg", "video/avi", "video/webm"];
-  const audioMimeTypes = ["audio/mpeg", "audio/mp3", "audio/wav", "audio/x-wav", "audio/webm"];
+  const audioMimeTypes = ["audio/mpeg", "audio/mp3", "audio/wav", "audio/x-wav", "audio/webm"];  
+  
 
   let isValid = false;
 

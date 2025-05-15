@@ -8,6 +8,8 @@ const SignupSchema = new mongoose.Schema({
     adminId:{type:String },
     mobileNumber: { type: String, required: true },
     email: { type: String, required: true, unique: true },
+    department:{type:String},
+    designation:{type:String},
     companyCode: { type: String, required: true }, // Links to Company Master
     imageUrl: { type: String },
     role: { type: String, enum: ["Patrol", "Admin"], required: true },
